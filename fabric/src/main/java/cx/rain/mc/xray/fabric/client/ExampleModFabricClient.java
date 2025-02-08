@@ -1,11 +1,11 @@
-package com.example.fabric.client;
+package cx.rain.mc.xray.fabric.client;
 
-import com.example.ExampleMod;
+import cx.rain.mc.xray.XrayMod;
 import net.fabricmc.api.ClientModInitializer;
 
 public class ExampleModFabricClient implements ClientModInitializer {
     @Override
     public void onInitializeClient() {
-        ExampleMod.initClient();
+        XrayMod.initClient();
     }
 }

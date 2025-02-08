@@ -1,4 +1,4 @@
-package com.example.mixin;
+package cx.rain.mc.xray.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

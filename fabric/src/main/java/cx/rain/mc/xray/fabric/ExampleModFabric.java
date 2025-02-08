@@ -1,11 +1,11 @@
-package com.example.fabric;
+package cx.rain.mc.xray.fabric;
 
-import com.example.ExampleMod;
+import cx.rain.mc.xray.XrayMod;
 import net.fabricmc.api.ModInitializer;
 
 public class ExampleModFabric implements ModInitializer {
     @Override
     public void onInitialize() {
-        ExampleMod.init();
+        XrayMod.init();
     }
 }

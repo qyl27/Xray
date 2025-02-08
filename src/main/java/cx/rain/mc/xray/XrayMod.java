@@ -1,7 +1,7 @@
-package com.example;
+package cx.rain.mc.xray;
 
-public class ExampleMod {
-    public static final String MODID = "example";
+public class XrayMod {
+    public static final String MODID = "xray";
 
     public static void init() {
         System.out.println("Hello! I'm running on " + ModPlatform.getPlatform());

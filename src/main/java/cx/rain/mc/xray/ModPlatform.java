@@ -1,4 +1,4 @@
-package com.example;
+package cx.rain.mc.xray;
 
 import dev.architectury.injectables.annotations.ExpectPlatform;
 

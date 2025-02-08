@@ -1,5 +1,5 @@
 {
-    "accessWidener": "example.accesswidener",
+    "accessWidener": "xray.accesswidener",
     "injected_interfaces": {
     }
 }

@@ -1,33 +1,32 @@
 {
     "schemaVersion": 1,
-    "id": "example",
+    "id": "${mod_id}",
     "version": "${mod_version}",
-    "name": "Example Mod",
-    "description": "Start to make your fantastic Minecraft Mod!",
+    "name": "X-ray Mod",
+    "description": "An easy way to find ores, caves or entities.",
     "authors": [
-        "Me!"
+        "qyl27"
     ],
     "contact": {
-        "sources": "https://github.com/qyl27/architectury-loom-template"
+        "sources": "https://github.com/qyl27/Xray"
     },
-    "license": "CC BY 4.0",
+    "license": "MIT",
     "environment": "*",
     "entrypoints": {
         "main": [
-            "com.example.fabric.ExampleModFabric"
+            "cx.rain.mc.xray.fabric.ExampleModFabric"
         ],
         "client": [
-            "com.example.fabric.client.ExampleModFabricClient"
+            "cx.rain.mc.xray.fabric.client.ExampleModFabricClient"
         ]
     },
     "mixins": [
-        "example.mixins.json",
-        "example-fabric.mixins.json"
+        "xray.mixins.json",
+        "xray-fabric.mixins.json"
     ],
     "depends": {
         "minecraft": "${fabric_minecraft_version_range}",
         "fabricloader": "${fabric_loader_version_range}",
-        "fabric": "${fabric_api_version_range}",
-        "architectury": "${fabric_architectury_version_range}"
+        "fabric": "${fabric_api_version_range}"
     }
 }

@@ -1,4 +1,4 @@
-package com.example.neoforge.mixin;
+package cx.rain.mc.xray.fabric.mixin;
 
 import net.minecraft.client.Minecraft;
 import org.spongepowered.asm.mixin.Mixin;

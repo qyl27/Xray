@@ -1,7 +1,7 @@
-package com.example.neoforge;
+package cx.rain.mc.xray.fabric;
 
 public class ModPlatformImpl {
     public static String getPlatform() {
-        return "NeoForge";
+        return "Fabric";
     }
 }
